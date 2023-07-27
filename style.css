@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-image: url("assets/bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 45px;
+  gap: 70px;
+  color: #000;
+  margin-right: 52px;
+}
+
+.navbar a {
+  color: #000;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.navbar .btn button {
+  background-color: #f84646;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: 0;
+  cursor: pointer;
+}
+.header .navbar-content {
+  display: flex;
+  padding: 40px 110px;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.header .navbar-content .content-1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+}
+.header .navbar-content .content-2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.header .navbar-content .content-3 {
+  position: relative;
+}
+.header .navbar-content .content-3 input {
+  position: absolute;
+  padding: 15px;
+  width: 373px;
+  border: 0;
+  border-radius: 8px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.header .navbar-content .content-3 button {
+  position: absolute;
+  background-color: #f84646;
+  padding: 10px 30px;
+  border-radius: 14px;
+  border: 0;
+  left: 247px;
+  top: 5px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.navbar .media-btn {
+  display: none;
+}
